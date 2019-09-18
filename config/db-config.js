@@ -2,7 +2,7 @@
 const knex = require('knex');
 
 //import knexFile
-const knexFile = require('../../knexfile')
+const knexFile = require('../knexfile')
 
 //target development property on your knexFile
 const knexConfig = knexFile.development;

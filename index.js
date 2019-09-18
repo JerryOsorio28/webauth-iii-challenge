@@ -5,7 +5,7 @@ require('dotenv').config();
 const server = require('./server');
 
 //import defaults to grab your dynamic port
-const defaults = require('./database/config/defaults');
+const defaults = require('./config/defaults');
 
 //create dynamic port
 const port = defaults.port;

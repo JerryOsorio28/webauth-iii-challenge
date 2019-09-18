@@ -8,7 +8,7 @@ const server = express();
 server.use(express.json());
 
 //import endpoints
-const endpoints = require('./database/enpoints/endpoints.js')
+const endpoints = require('./database/endpoints/endpoints.js')
 server.use('/api', endpoints)
 
 //Dummy endpoint
